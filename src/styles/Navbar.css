@@ -53,3 +53,16 @@
     background-color:#0084ff;
     color:white;
 }
+
+@media screen and (max-width:1200px){
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:15px;
+    } #nav-list{
+        flex-direction: column;
+
+        gap:15px;
+    }
+}

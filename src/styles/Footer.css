@@ -51,4 +51,7 @@ hr{
         flex-direction: column;
         gap:15px;
     }
+    .subscribe-btn{
+        margin: 0;
+    }
 }

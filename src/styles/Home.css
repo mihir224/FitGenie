@@ -45,5 +45,8 @@
         width: max-content;
         align-self: center;
     }
-    
+    #genie{
+        width: 350px;
+        height: 150px;
+    }
 }

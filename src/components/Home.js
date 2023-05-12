@@ -6,7 +6,7 @@ function Home(){
     return (
         <div id='home'>
         <div>
-        <img src={genie} alt='aladdin' width='550' height='350'></img>
+        <img id='genie' src={genie} alt='aladdin' width='550' height='350'></img>
         </div>
 
         <div id='home-text'>
