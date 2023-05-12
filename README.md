@@ -2,7 +2,7 @@
 
 My version of [GymGenie](https://gymgenie.vercel.app/)
 
-You can visit the hosted project at: [FitGenie]()
+You can visit the hosted project at: [FitGenie](https://fitgenie224.netlify.app/)
 
 I have implemented the home, sign-in/sign-up and the workout plan pages through React.
 
