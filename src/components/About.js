@@ -3,26 +3,7 @@ import '../styles/About.css';
 
 
 function About(){
-    // const [isIntersecting,setIsIntersecting]=useState(false);
-    // const ref=useRef(null);
-    // useEffect(()=>{
-    //     const observer=new IntersectionObserver(entries=>{
-    //         entries.forEach(entry=>{
-    //             if(entry.isIntersecting){
-    //                 setIsIntersecting(true);
-    //             }
-    //         })
-    //     });
-    //     observer.observe(ref.current);
-        
-    // },[])
-    // useEffect(()=>{
-    //     if(isIntersecting){
-    //         ref.current.classList.add('load-animation')
-    //     }
-    //     console.log(isIntersecting)
-    // },[isIntersecting])
-   
+
     return (
         <div id='about'>
             <h1 style={{fontSize:'45px'}}>Chosen by users worldwide</h1>

@@ -1,9 +1,16 @@
 import React from 'react';
 import '../styles/Home.css';
+import Navbar from './Navbar';
+import About from './About';
+import Pricing from './Pricing';
+import Footer from './Footer';
 import genie from '../images/genie.png';
+
 
 function Home(){
     return (
+        <div>
+        <Navbar/>
         <div id='home'>
         <div>
         <img id='genie' src={genie} alt='aladdin' width='550' height='350'></img>
@@ -28,7 +35,10 @@ function Home(){
         <p style={{fontWeight:'500'}} className='opacity'> Sign up for free, no payment details necessary!</p>
         <button className='btn explore-btn'>Explore More</button>
         </div>
-        
+        </div>
+        <About/>
+        <Pricing/>
+        <Footer/>
         </div>
     )
 }
