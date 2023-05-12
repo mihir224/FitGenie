@@ -1,0 +1,51 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    height: 100vh;
+  
+}
+
+#signin{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 20em;
+    align-items: center;
+    gap:10px;
+    padding:40px 50px;
+    color:black;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;   
+}
+#lgo{
+    background:  linear-gradient(120deg, #0072ff, #00c6ff, #92fe9d);;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 37px;
+}
+#signin>h2{
+    margin:0;
+}
+#f-name,#l-name,#email,#password,#cnf-password{
+    border:1px solid rgba(0, 0, 0, 0.61);
+    border-radius: 5px;
+    padding:2px 10px;
+    width: 18em;
+    font-family: 'poppins';
+    height: 2em;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+.signin-btn{
+    padding: 5px 20px;
+    background-color: #0084ff;
+    color:white;
+    font-weight: 500;
+    margin-top:10px;
+}
