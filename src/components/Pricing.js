@@ -5,7 +5,7 @@ import {plans} from '../plans'
 
 function Pricing(){
     return(
-        <div id='pricing'>
+        <section id='pricing'>
         <div>
             <h2 style={{fontWeight:'500'} }className='opacity'>Pricing</h2>
             <h1 style={{fontSize:'36px'}}>Achieve Your Fitness Goals Here</h1>
@@ -20,7 +20,7 @@ function Pricing(){
                 })
             }
         </div>
-        </div>
+        </section>
     )
 }
 

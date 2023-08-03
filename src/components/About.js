@@ -5,7 +5,7 @@ import '../styles/About.css';
 function About(){
 
     return (
-        <div id='about'>
+        <section id='about'>
             <h1 style={{fontSize:'45px'}}>Chosen by users worldwide</h1>
             <h2 className='opacity'>Industry standard in USA, India, Canada, UAE, and 75 more countries</h2>
             <div id='about-cards'>
@@ -22,7 +22,7 @@ function About(){
             <p className='opacity'>Stems from a deep desire to empower individuals to achieve their health goal</p>
             </div>
             </div>
-        </div>
+        </section>
     )
 }
 

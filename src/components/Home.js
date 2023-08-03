@@ -11,7 +11,7 @@ function Home(){
     return (
         <div>
         <Navbar/>
-        <div id='home'>
+        <section id='home'>
         <div>
         <img id='genie' src={genie} alt='aladdin' width='550' height='350'></img>
         </div>
@@ -35,7 +35,7 @@ function Home(){
         <p style={{fontWeight:'500'}} className='opacity'> Sign up for free, no payment details necessary!</p>
         <button className='btn explore-btn'>Explore More</button>
         </div>
-        </div>
+        </section>
         <About/>
         <Pricing/>
         <Footer/>

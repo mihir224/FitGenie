@@ -17,9 +17,9 @@ function Navbar(){
             <div >
                 <ul id='nav-list'>
                     <Link to='/' replace={true}><li className='nav-list-items'><h1 id='logo'>FitGenie</h1></li></Link>
-                    <li className='nav-list-items nav-options'>Home</li>
-                    <li className='nav-list-items nav-options'>About</li>
-                    <li className='nav-list-items nav-options'>Pricing</li>
+                    <a href='#home' style={{color:'black'}}><li className='nav-list-items nav-options'>Home</li></a>
+                    <a href='#about' style={{color:'black'}}><li className='nav-list-items nav-options'>About</li></a>
+                    <a href='#pricing' style={{color:'black'}}><li className='nav-list-items nav-options'>Pricing</li></a>
                     <Link to='/workout' replace={true} style={{color:'inherit'}}><li className='nav-list-items nav-options'>Workout Plans</li></Link>
                     <li className='nav-list-items nav-options'>Gourmet GamePlan</li>
                     <li className='nav-list-items nav-options'>MealtimeCompass</li>
