@@ -3,8 +3,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(245, 245, 245);
-    height: 100vh;
-  
+    height: 100vh; 
 }
 
 #signin{
@@ -14,10 +13,13 @@
     max-width: 20em;
     align-items: center;
     gap:10px;
-    padding:40px 50px;
+    padding:20px 50px;
     color:black;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;   
+}
+#signin-txt:hover{
+    text-decoration: underline;
 }
 #lgo{
     background:  linear-gradient(120deg, #0072ff, #00c6ff, #92fe9d);;
@@ -48,4 +50,8 @@
     color:white;
     font-weight: 500;
     margin-top:10px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:5px;
 }
